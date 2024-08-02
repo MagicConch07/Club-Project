@@ -1,0 +1,29 @@
+<ui:UXML xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" xsi="http://www.w3.org/2001/XMLSchema-instance" engine="UnityEngine.UIElements" editor="UnityEditor.UIElements" noNamespaceSchemaLocation="../../../../../UIElementsSchema/UIElements.xsd" editor-extension-mode="False">
+    <Style src="project://database/Assets/Shop_UI.uss?fileID=7433441132597879392&amp;guid=21a89ccb1259f624688f6af168acffd3&amp;type=3#Shop_UI" />
+    <ui:VisualElement name="shop-container" style="flex-grow: 1; align-items: center; justify-content: center;">
+        <ui:VisualElement name="window" class="shop-window">
+            <ui:VisualElement name="topside-bar" class="shop-topside-bar">
+                <ui:Label tabindex="-1" text="상점" parse-escape-sequences="true" display-tooltip-when-elided="true" name="title-label" enable-rich-text="true" class="title-label" style="position: absolute;" />
+                <ui:Button text="X" parse-escape-sequences="true" display-tooltip-when-elided="true" name="exit-btn" class="exit-btn" style="position: relative;" />
+            </ui:VisualElement>
+            <ui:VisualElement name="content" style="flex-grow: 1; flex-basis: auto; flex-direction: row; justify-content: space-around; align-items: center;">
+                <ui:VisualElement name="item-border" class="item-border" style="overflow: hidden; border-left-color: rgb(223, 208, 184); border-right-color: rgb(223, 208, 184); border-top-color: rgb(223, 208, 184); border-bottom-color: rgb(223, 208, 184); border-top-width: 3px; border-right-width: 3px; border-bottom-width: 3px; border-left-width: 3px; border-top-left-radius: 10px; border-top-right-radius: 10px; border-bottom-right-radius: 10px; border-bottom-left-radius: 10px;">
+                    <ui:VisualElement name="item-content" class="item-content" style="width: 350px; height: 550px;">
+                        <ui:VisualElement name="item-image-container" style="flex-basis: 220px; align-items: center; justify-content: center;">
+                            <ui:VisualElement name="item-image" class="item-image" />
+                        </ui:VisualElement>
+                        <ui:VisualElement name="item-name-box" style="flex-basis: 70px;">
+                            <ui:Label tabindex="-1" text="아이템 이름" parse-escape-sequences="true" display-tooltip-when-elided="true" name="item-name-label" class="item-name-label" />
+                        </ui:VisualElement>
+                        <ui:VisualElement name="item-info-box" style="flex-grow: 1; align-items: center; justify-content: center; background-color: rgb(223, 208, 184);">
+                            <ui:Label tabindex="-1" text="info" parse-escape-sequences="true" display-tooltip-when-elided="true" name="item-info-label" class="item-info-label" />
+                        </ui:VisualElement>
+                        <ui:VisualElement name="item-buy-btn" style="flex-basis: 100px; align-items: center; justify-content: center;">
+                            <ui:Button text="가격" parse-escape-sequences="true" display-tooltip-when-elided="true" name="buy-btn" class="buy-btn" />
+                        </ui:VisualElement>
+                    </ui:VisualElement>
+                </ui:VisualElement>
+            </ui:VisualElement>
+        </ui:VisualElement>
+    </ui:VisualElement>
+</ui:UXML>

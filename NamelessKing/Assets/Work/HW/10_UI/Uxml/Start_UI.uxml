@@ -1,0 +1,9 @@
+<ui:UXML xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" xsi="http://www.w3.org/2001/XMLSchema-instance" engine="UnityEngine.UIElements" editor="UnityEditor.UIElements" noNamespaceSchemaLocation="../../../../../UIElementsSchema/UIElements.xsd" editor-extension-mode="False">
+    <Style src="project://database/Assets/Work/HW/10_UI/Uss/Start_UI.uss?fileID=7433441132597879392&amp;guid=bc64926dc97088447adaa239e1ff8131&amp;type=3#Start_UI" />
+    <ui:VisualElement name="start-container" style="flex-grow: 1; opacity: 1;">
+        <ui:VisualElement name="content" style="flex-grow: 1; align-items: center; justify-content: flex-start;">
+            <ui:Label tabindex="-1" text="NamelessKing" parse-escape-sequences="true" display-tooltip-when-elided="true" name="title-label" class="title-label" />
+            <ui:Button text="아무 키나 눌러 시작" parse-escape-sequences="true" display-tooltip-when-elided="true" name="start-btn" enable-rich-text="true" class="start-btn" style="border-left-color: rgba(149, 149, 149, 0); border-right-color: rgba(149, 149, 149, 0); border-top-color: rgba(149, 149, 149, 0); border-bottom-color: rgba(149, 149, 149, 0);" />
+        </ui:VisualElement>
+    </ui:VisualElement>
+</ui:UXML>

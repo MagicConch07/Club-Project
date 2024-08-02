@@ -1,0 +1,28 @@
+<ui:UXML xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" xsi="http://www.w3.org/2001/XMLSchema-instance" engine="UnityEngine.UIElements" editor="UnityEditor.UIElements" noNamespaceSchemaLocation="../../../../../UIElementsSchema/UIElements.xsd" editor-extension-mode="False">
+    <Style src="project://database/Assets/Work/HW/10_UI/Uss/Stat.uss?fileID=7433441132597879392&amp;guid=575dcb038740ee047bf185faaa1e60b2&amp;type=3#Stat" />
+    <ui:VisualElement name="stat-container" style="flex-grow: 1; align-items: center; justify-content: center;">
+        <ui:VisualElement name="window" class="stat-window" style="justify-content: flex-start; align-items: center; background-color: rgb(21, 52, 72); border-top-width: 5px; border-right-width: 5px; border-bottom-width: 5px; border-left-width: 5px; border-top-left-radius: 30px; border-top-right-radius: 30px; border-bottom-right-radius: 30px; border-bottom-left-radius: 30px; border-left-color: rgb(148, 137, 121); border-right-color: rgb(148, 137, 121); border-top-color: rgb(148, 137, 121); border-bottom-color: rgb(148, 137, 121); height: 80%;">
+            <ui:VisualElement name="topside-bar" class="shop-topside-bar">
+                <ui:Label tabindex="-1" text="스탯" parse-escape-sequences="true" display-tooltip-when-elided="true" name="title-label" enable-rich-text="true" class="title-label" style="position: absolute;" />
+                <ui:Button text="X" parse-escape-sequences="true" display-tooltip-when-elided="true" name="exit-btn" class="exit-btn" style="position: relative;" />
+            </ui:VisualElement>
+            <ui:VisualElement name="content" style="align-items: center; justify-content: center; margin-bottom: 0; flex-grow: 1; margin-top: 0; margin-right: 0; margin-left: 0; width: 100%;">
+                <ui:VisualElement name="health" class="stat" style="-unity-text-align: upper-left; align-items: center;">
+                    <ui:Label tabindex="-1" text="체력" parse-escape-sequences="true" display-tooltip-when-elided="true" name="title-health-label" class="title-stat-label" style="-unity-font: url(&apos;project://database/Assets/Work/HW/Font/hk/DNFForgedBlade-Medium.ttf?fileID=12800000&amp;guid=9c8e54e3c8cd52142a0ab4e8b3ab9c21&amp;type=3#DNFForgedBlade-Medium&apos;);" />
+                    <ui:Label tabindex="-1" text="0" parse-escape-sequences="true" display-tooltip-when-elided="true" name="health-label" class="visual-label stat-label" />
+                    <ui:Button text="+" parse-escape-sequences="true" display-tooltip-when-elided="true" name="health-btn" class="plus-btn" style="align-items: auto; position: absolute;" />
+                </ui:VisualElement>
+                <ui:VisualElement name="agility" class="stat" style="justify-content: center;">
+                    <ui:Label tabindex="-1" text="민첩" parse-escape-sequences="true" display-tooltip-when-elided="true" name="title-agility-label" class="title-stat-label" style="-unity-font: url(&apos;project://database/Assets/Work/HW/Font/hk/DNFForgedBlade-Medium.ttf?fileID=12800000&amp;guid=9c8e54e3c8cd52142a0ab4e8b3ab9c21&amp;type=3#DNFForgedBlade-Medium&apos;);" />
+                    <ui:Label tabindex="-1" text="0" parse-escape-sequences="true" display-tooltip-when-elided="true" name="agility-label" class="stat-label" />
+                    <ui:Button text="+" parse-escape-sequences="true" display-tooltip-when-elided="true" name="agility-btn" class="upgrade-btn plus-btn" style="-unity-font: url(&apos;project://database/Assets/Work/HW/Font/hk/DNFForgedBlade-Medium.ttf?fileID=12800000&amp;guid=9c8e54e3c8cd52142a0ab4e8b3ab9c21&amp;type=3#DNFForgedBlade-Medium&apos;); position: absolute; left: 900px;" />
+                </ui:VisualElement>
+                <ui:VisualElement name="strength" class="stat">
+                    <ui:Label tabindex="-1" text="힘" parse-escape-sequences="true" display-tooltip-when-elided="true" name="title-streagth-label" class="title-stat-label" style="-unity-font: url(&apos;project://database/Assets/Work/HW/Font/hk/DNFForgedBlade-Medium.ttf?fileID=12800000&amp;guid=9c8e54e3c8cd52142a0ab4e8b3ab9c21&amp;type=3#DNFForgedBlade-Medium&apos;);" />
+                    <ui:Label tabindex="-1" text="0" parse-escape-sequences="true" display-tooltip-when-elided="true" name="streagth-label" class="visual-label stat-label" />
+                    <ui:Button text="+" parse-escape-sequences="true" display-tooltip-when-elided="true" name="strength-btn" class="upgrade-btn plus-btn" style="-unity-font: url(&apos;project://database/Assets/Work/HW/Font/hk/DNFForgedBlade-Medium.ttf?fileID=12800000&amp;guid=9c8e54e3c8cd52142a0ab4e8b3ab9c21&amp;type=3#DNFForgedBlade-Medium&apos;); position: absolute; left: 900px;" />
+                </ui:VisualElement>
+            </ui:VisualElement>
+        </ui:VisualElement>
+    </ui:VisualElement>
+</ui:UXML>

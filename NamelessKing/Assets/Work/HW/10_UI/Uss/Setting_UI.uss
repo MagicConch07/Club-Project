@@ -1,0 +1,152 @@
+.setting-window {
+    background-color: rgb(21, 52, 72);
+    width: 75%;
+    height: 80%;
+    border-top-width: 7px;
+    border-right-width: 7px;
+    border-bottom-width: 7px;
+    border-left-width: 7px;
+    border-top-left-radius: 30px;
+    border-top-right-radius: 30px;
+    border-bottom-right-radius: 30px;
+    border-bottom-left-radius: 30px;
+    border-left-color: rgb(148, 137, 121);
+    border-right-color: rgb(148, 137, 121);
+    border-top-color: rgb(148, 137, 121);
+    border-bottom-color: rgb(148, 137, 121);
+    transition-property: top;
+    transition-duration: 1s;
+    transition-timing-function: ease-out-back;
+    top: 0;
+    position: relative;
+}
+
+.setting-label {
+    -unity-font: url('project://database/Assets/Work/HW/Font/hk/DNFForgedBlade-Medium.ttf?fileID=12800000&guid=9c8e54e3c8cd52142a0ab4e8b3ab9c21&type=3#DNFForgedBlade-Medium');
+    font-size: 70px;
+    color: rgb(223, 208, 184);
+    position: absolute;
+    left: 640px;
+    -unity-font-definition: initial;
+}
+
+.sound-content {
+    color: rgb(223, 208, 184);
+    -unity-font: url('project://database/Assets/Work/HW/Font/hk/DNFForgedBlade-Medium.ttf?fileID=12800000&guid=9c8e54e3c8cd52142a0ab4e8b3ab9c21&type=3#DNFForgedBlade-Medium');
+    margin-bottom: 20px;
+    -unity-font-definition: initial;
+    font-size: 30px;
+}
+
+.sound-content > VisualElement {
+    flex-basis: 350px;
+}
+
+.sound-content > Label {
+    flex-basis: 200px;
+}
+
+.setting-exit-btn {
+    margin-top: 0;
+    margin-bottom: 0;
+    margin-left: 1300px;
+    padding-top: 0;
+    padding-right: 0;
+    padding-bottom: 0;
+    padding-left: 0;
+    left: -20px;
+    margin-right: 0;
+    background-color: rgb(21, 52, 72);
+    -unity-font: url('project://database/Assets/Work/HW/Font/hk/DNFForgedBlade-Medium.ttf?fileID=12800000&guid=9c8e54e3c8cd52142a0ab4e8b3ab9c21&type=3#DNFForgedBlade-Medium');
+    border-left-color: rgb(148, 137, 121);
+    border-right-color: rgb(148, 137, 121);
+    border-top-color: rgb(148, 137, 121);
+    border-bottom-color: rgb(148, 137, 121);
+    border-top-width: 3px;
+    border-right-width: 3px;
+    border-bottom-width: 3px;
+    border-left-width: 3px;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+    border-bottom-left-radius: 10px;
+    -unity-font-definition: initial;
+    width: 70px;
+    height: 70px;
+    color: rgb(148, 137, 121);
+    font-size: 40px;
+    transition-duration: 0.2s;
+}
+
+.setting-exit-btn:hover {
+    border-left-color: rgb(223, 208, 184);
+    border-right-color: rgb(223, 208, 184);
+    border-top-color: rgb(223, 208, 184);
+    border-bottom-color: rgb(223, 208, 184);
+    border-top-width: 3px;
+    border-right-width: 3px;
+    border-bottom-width: 3px;
+    border-left-width: 3px;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+    border-bottom-left-radius: 10px;
+    color: rgb(223, 208, 184);
+    font-size: 50px;
+    -unity-font-definition: initial;
+    -unity-font: url('project://database/Assets/Work/HW/Font/hk/DNFForgedBlade-Medium.ttf?fileID=12800000&guid=9c8e54e3c8cd52142a0ab4e8b3ab9c21&type=3#DNFForgedBlade-Medium');
+    width: 80px;
+    height: 80px;
+}
+
+.game-exit-btn {
+    margin-top: 480px;
+    margin-right: 0;
+    margin-bottom: 0;
+    margin-left: 0;
+    padding-top: 0;
+    padding-right: 0;
+    padding-bottom: 0;
+    padding-left: 0;
+    -unity-font: url('project://database/Assets/Work/HW/Font/hk/DNFForgedBlade-Medium.ttf?fileID=12800000&guid=9c8e54e3c8cd52142a0ab4e8b3ab9c21&type=3#DNFForgedBlade-Medium');
+    font-size: 40px;
+    -unity-font-definition: initial;
+    color: rgb(148, 137, 121);
+    background-color: rgba(188, 188, 188, 0);
+    border-left-color: rgb(148, 137, 121);
+    border-right-color: rgb(148, 137, 121);
+    border-top-color: rgb(148, 137, 121);
+    border-bottom-color: rgb(148, 137, 121);
+    border-top-width: 3px;
+    border-right-width: 3px;
+    border-bottom-width: 3px;
+    border-left-width: 3px;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+    border-bottom-left-radius: 10px;
+    width: 240px;
+    height: 80px;
+    transition-duration: 0.4s;
+}
+
+.game-exit-btn:hover {
+    border-left-color: rgb(223, 208, 184);
+    border-right-color: rgb(223, 208, 184);
+    border-top-color: rgb(223, 208, 184);
+    border-bottom-color: rgb(223, 208, 184);
+    border-top-width: 3px;
+    border-right-width: 3px;
+    border-bottom-width: 3px;
+    border-left-width: 3px;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+    border-bottom-left-radius: 10px;
+    -unity-font-definition: initial;
+    -unity-font: url('project://database/Assets/Work/HW/Font/hk/DNFForgedBlade-Medium.ttf?fileID=12800000&guid=9c8e54e3c8cd52142a0ab4e8b3ab9c21&type=3#DNFForgedBlade-Medium');
+    font-size: 45px;
+    width: 270px;
+    height: 90px;
+    color: rgb(223, 208, 184);
+}
